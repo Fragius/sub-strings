@@ -1,3 +1,6 @@
+message = ""
+dictionary = []
+
 def count_word (word, string)
  string.downcase.scan(word).length
 end
@@ -13,3 +16,6 @@ def substrings (string, dictionary)
   end
   total_count
 end
+
+
+substrings message, dictionary
